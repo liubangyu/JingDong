@@ -1,0 +1,487 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fl{float: left}
+.fr{float: right}
+input{border: none}
+.headerArea{
+    width: 100%;
+    height: 30px;
+    background-color: #E3E4E5;
+}
+
+.topBar{
+    width: 1200px;
+    margin: 0 auto;
+    clear: both;
+}
+.topBar img{
+    float: left;
+}
+.leftArea{
+    /*clear: both;*/
+}
+.beijing{
+    display: block;
+    float: left;
+    margin-left: 24px;
+    width: 51px;
+    line-height: 30px;
+    font-size: 9px;
+    text-align: center;
+    color: #737373;
+    z-index: 2;
+}
+.beijing:hover{
+    background-color: white;
+    color: #F10215;
+    border: 1px solid #E3E4E5;
+    border-bottom: none;
+    box-shadow: 0 0 8px #ddd;
+    -moz-box-shadow: 0 0 8px #ddd;
+    -webkit-box-shadow: 0 0 8px #ddd;
+}
+.leftArea:hover .empty{
+    background: white;
+    display: inline-block;
+    z-index: 20;
+    width: 51px;
+    height: 10px;
+    left: 335px;
+    top: 28px;
+    position: absolute;
+}
+.submenu{
+    display: none;
+    border: 1px solid #E3E4E5;
+    width: 320px;
+    left: 334px;
+    top: 30px;
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    box-shadow: 0 0 8px #ddd;
+    -moz-box-shadow: 0 0 8px #ddd;
+    -webkit-box-shadow: 0 0 8px #ddd;
+}
+.leftArea:hover .submenu{
+    display: block;
+}
+.abovediv{
+    height: 90px;
+}
+.abovediv dl{
+    margin: 5px;
+    display: block;
+    list-style-type: none;
+    border-bottom: 1px solid #E3E4E5
+}
+.abovediv dl dd{
+    display: block;
+    overflow: hidden;
+}
+.abovediv dl dd a{
+    height: 22px;
+    width: 40px;
+    font-size: 9px;
+    color: #737373;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 15px;
+}
+.abovediv dl dd a:hover{
+    color: #F10215;
+    background-color: #E3E4E5;
+}
+.belowdiv{
+    height: 100px;
+}
+.belowdiv a{
+    text-decoration: none;
+}
+.belowdiv a span{
+    font-size: 9px;
+    color: #737373;
+    margin: 15px 15px;
+}
+.rightArea{
+    float: right;
+}
+.rightArea dl{
+    display: block;
+    list-style-type: none;
+    /*overflow: hidden;*/
+
+}
+.rightArea dl dt{
+    display: block;
+    float: left;
+}
+.landing{
+    font-size: 9px;
+    color: #737373;
+    line-height: 30px;
+    text-align: center;
+    padding:0 10px;
+    text-decoration: none;
+}
+.rightArea dl dd a:hover,.landing:hover{
+    color: #F10215;
+}
+.register{
+    font-size: 9px;
+    color: #F10215;
+    line-height: 30px;
+    text-align: center;
+    padding:0 10px;
+    text-decoration: none;
+}
+.rightArea dl dd{
+    display: block;
+    overflow: hidden;
+}
+.rightArea dl dd a{
+    border-left: 1px solid #ccc;
+    font-size: 9px;
+    color: #737373;
+    line-height: 30px;
+    text-align: center;
+    padding:0 10px;
+    text-decoration: none;
+    z-index: 2;
+}
+/*导航区*/
+.navigation{
+    height: 140px;
+    width: 100%;
+    background-color: #F0F3EF;
+}
+.navigation-cen{
+    height: 68px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.search-box{
+    padding-top: 23px;
+    padding-left: 130px;
+    width: 560px;
+    height: 34px;
+}
+.search-text{
+    padding: 0 5px;
+    width: 500px;
+    height: 34px;
+    line-height: 34px\9;
+}
+.search-btn{
+    width: 50px;
+    height: 34px;
+    font-size: 14px;
+    background: #F10215;
+}
+.navigation-cen img{
+    float: right;
+    width: 67px;
+    height: 66px;
+}
+.shopCar{
+    width: 190px;
+    height: 35px;
+    background-color: #fff;
+    margin-top: 23px;
+    margin-left: 30px;
+}
+.shopText{
+    padding-left: 55px;
+    font-size: 9px;
+    line-height: 35px;
+    color: #F10215;
+}
+.shopNum{
+    color: #F10215;
+    font-size: 9px;
+}
+.advertising{
+    width: 1200px;
+    margin: 0 auto;
+    height: 24px;
+}
+.advertising dl{
+    padding-left: 130px;
+    display: block;
+}
+/*.abovediv dl{
+    margin: 5px;
+    display: block;
+    list-style-type: none;
+    border-bottom: 1px solid #E3E4E5
+}*/
+.advertising dl dd{
+    padding-left: 130px;
+    float: left;
+
+}
+.advertising dl dd a{
+
+    font-size: 9px;
+    color: #F10215;
+    text-decoration: none;
+    text-align: center;
+}
+.advertising dl dt{
+    padding-left: 15px;
+    display: block;
+    float: left;
+
+}
+.advertising dl dt a{
+    margin: 0 5px;
+    font-size: 9px;
+    color: #737373;
+    /*line-height: 40px;*/
+    text-align: center;
+    text-decoration: none;
+}
+.advertising dl dt a:hover{
+    color: #F10215;
+}
+/*头部尾部*/
+.shopBox{
+
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+.shopClass{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 10px;
+
+}
+.shopClass li{
+    list-style-type: none;
+}
+.shopClass li a{
+    display: block;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+    color: black;
+    line-height: 40px;
+}
+.shopClass li a:hover{
+    color: #F10215;
+}
+/*主体区*/
+.main{
+    width: 100%;
+    height: 900px;
+    background-color: #F0F3EF;
+    border-bottom: 1px solid #737373;
+}
+.primary{
+    clear: both;
+    width: 1200px;
+    margin: 0 auto;
+}
+.primary-group1{
+    display: block;
+    margin-top: 1px;
+    width: 190px;
+    height: 480px;
+    float: left;
+    background-color: white;
+}
+.primary-group1 ul li{
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    padding-left: 18px;
+    padding-top: 1px;
+}
+.primary-group1 ul li a{
+     font-size: 14px;
+     text-decoration: none;
+     color: #666;
+ }
+.primary-group1 ul li span{
+    padding: 0;
+    font-size:12px;
+    color: #666;
+}
+.primary-group1 ul li a:hover{
+    color: #F10215;
+}
+.primary-group2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.primary-group2 a img{
+
+}
+.primary-group3{
+    width: 190px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.primary-group3 a img{
+    width: 190px;
+    height: 150px;
+    margin-bottom: 5px;
+}
+.primary-group4{
+    float: left;
+
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.primary-group4 a img{
+    width: 192px;
+    height: 470px;
+}
+/* 图片展示区*/
+.photoClass{
+
+    clear: both;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 28px;
+}
+.photoClass-left{
+    float: left;
+    background-color: #F10215;
+    width: 190px;
+    height: 273px;
+}
+.photoClass-center{
+    float: left;
+
+}
+.photoClass-center a img{
+    width: 800px;
+    height: 275px;
+}
+.photoClass-right{
+    float: left;
+    width: 200px;
+}
+.photoClass-right a img{
+    width: 200px;
+    height: 275px;
+}
+/*中部尾部*/
+.feature{
+    height: 103px;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+.feature-all ul{
+    height: 42px;
+}
+.feature-all ul li{
+    display: flex;
+    float: left;
+    height: 42px;
+    width: 297px;
+    padding: 28px 0;
+
+
+ }
+.feature-all ul li img{
+    padding-left: 36px;
+    height: 42px;
+    width: 36px;
+}
+.feature-all ul li span{
+    display: inline-block;
+    color: black;
+    font-size: 18px;
+    height: 42px;
+    line-height: 42px;
+    font-weight: 700;
+    padding-left: 6px;
+}
+.footer{
+    height: 465px;
+    width: 100%;
+    background-color: #F0F3EF;
+}
+.footer-service{
+    width: 1200px;
+    height: 200px;
+    margin: 0 auto;
+
+}
+.chunk{
+    float: left;
+    width: 1190px;
+    height: 160px;
+    padding: 20px 5px;
+}
+.chunk dl{
+    float: left;
+    width: 198px;
+    height: 159px;
+}
+.chunk dl dt{
+    width: 198px;
+    height: 22px;
+    padding-bottom: 5px;
+
+}
+.chunk dl dt a{
+    font-weight: 700;
+    font-size: 14px;
+    color: #666666;
+    text-decoration: none;
+}
+.chunk dl dd{
+    width: 198px;
+    height: 22px;
+}
+.chunk dl dd a{
+    color: #666666;
+    font-size: 9px;
+    text-decoration: none;
+}
+.mod_help_cover{
+    float: right;
+    width: 200px;
+    height: 150px;
+}
+.mod_help_cover_tit{
+    width: 200px;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+    height: 21px;
+    padding-bottom: 16px;
+}
+.mod_help_cover span{
+    width: 180px;
+    height: 54px;
+    color: #666666;
+    font-size: 9px;
+}
+.mod_help_cover a{
+    padding-left: 120px;
+    width: 180px;
+    height: 20px;
+    color: #666666;
+    font-size: 9px;
+    text-decoration: none;
+
+}
+.mod_help_cover a:hover{
+    color: #F10215;
+}
+
+
+
+
+
