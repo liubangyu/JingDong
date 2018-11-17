@@ -302,10 +302,10 @@ input{border: none}
     padding-top: 1px;
 }
 .primary-group1 ul li a{
-     font-size: 14px;
-     text-decoration: none;
-     color: #666;
- }
+    font-size: 14px;
+    text-decoration: none;
+    color: #666;
+}
 .primary-group1 ul li span{
     padding: 0;
     font-size:12px;
@@ -391,7 +391,7 @@ input{border: none}
     padding: 28px 0;
 
 
- }
+}
 .feature-all ul li img{
     padding-left: 36px;
     height: 42px;
@@ -406,6 +406,7 @@ input{border: none}
     font-weight: 700;
     padding-left: 6px;
 }
+/*底部*/
 .footer{
     height: 465px;
     width: 100%;
@@ -415,6 +416,7 @@ input{border: none}
     width: 1200px;
     height: 200px;
     margin: 0 auto;
+    border-bottom: 1px solid #737373;
 
 }
 .chunk{
@@ -434,7 +436,7 @@ input{border: none}
     padding-bottom: 5px;
 
 }
-.chunk dl dt a{
+.chunk dl dt span{
     font-weight: 700;
     font-size: 14px;
     color: #666666;
@@ -448,6 +450,9 @@ input{border: none}
     color: #666666;
     font-size: 9px;
     text-decoration: none;
+}
+.chunk dl dd a:hover{
+    color: #F10215;
 }
 .mod_help_cover{
     float: right;
@@ -480,8 +485,48 @@ input{border: none}
 .mod_help_cover a:hover{
     color: #F10215;
 }
+.footer-link{
+    height: 265px;
+    width: 1190px;
+    margin: 0 auto;
+}
+.footer-oth{
+    height: 18px;
+    width: 1190px;
+    padding: 15px 0;
+}
+.aboutUs{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.aboutUs a{
+    color: #666666;
+    font-size: 9px;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.aboutUs a:hover{
+    color: #F10215;
+}
+.aboutUs span{
+    color: #666666;
+    font-size: 9px;
+}
+.message{
+    text-align: center;
+}
+.message a{
+    color: #999;
+    font-size: 9px;
+    text-decoration: none;
+    padding: 0 5px;
+}
+.message a:hover{
 
-
-
+}
+.message span{
+    color: #999;
+    font-size: 9px;
+}
 
 
